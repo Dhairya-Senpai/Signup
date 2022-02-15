@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SignUp Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bo
+otstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+<script src="valid.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-left mt-3">Registration Form</h3>
+                </div>
+                <div class="col-md-6">
+                    <div class="glyphicon glyphicon-pencil"></div></div>
+                </div><hr>
+                <form id="form">
+                    <div class="row form-group">
+                        <label class="label col-md-2 control-label" id="fnl">First Name:</label>
+                        <div class="col-md-10 mt-3">
+                            <input type="text" class="form-control" id="fn"placeholder="First Name" autocomplete="off" onkeyup="letteronly(this)">
+                            <div id="fns" class="shade"></div>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label class="label col-md-2 control-label" id="lnl">Last Name:</label>
+                        <div class="col-md-10 mt-3">
+                            <input type="text" class="form-control" id="ln"placeholder="Last Name" autocomplete="off"\>
+                            <div id="lns" class="shade"></div>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label class="label col-md-2 control-label" id="eml">Email:</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control " id="emm"placeholder="Email" autocomplete="off">
+                            <div id="ems" class="shade"></div>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label class="label col-md-2 control-label" id="uil">User Id:</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control mt-4" id="uid"placeholder="User Id" autocomplete="off">
+                            <div id="uis" class="shade"></div>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label class="label col-md-2 control-label" id="pdl">Password:</label>
+                        <div class="col-md-10">
+                            <input type="password" class="form-control" id="pd"placeholder="Password" autocomplete="off" >
+                            <div id="pws" class="shade"></div>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label class="label col-md-2 control-label" id="cpdl">Confirm Password:</label>
+                        <div class="col-md-10 mt-3">
+                            <input type="password" class="form-control" id="cpd"placeholder="Confirm Password" autocomplete="off" >
+                            <div id="cpws" class="shade"></div>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                    </div>
+                    <div> <input class="btn btn-info btn-lg form-group" type="submit" value="Register"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
